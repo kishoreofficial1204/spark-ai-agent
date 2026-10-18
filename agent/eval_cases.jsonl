@@ -1,0 +1,28 @@
+{"input": "What is 144 * 365?", "expected_tool": "calculate", "split": "tune"}
+{"input": "Calculate 1000 / 4", "expected_tool": "calculate", "split": "tune"}
+{"input": "What is 2 to the power of 10?", "expected_tool": "calculate", "split": "tune"}
+{"input": "Solve: (50 + 30) * 2 - 10", "expected_tool": "calculate", "split": "tune"}
+{"input": "What is 10 divided by 0?", "expected_tool": "calculate", "split": "tune"}
+{"input": "What is apple plus 3?", "expected_tool": "calculate", "split": "tune"}
+{"input": "Summarize this: Artificial intelligence is transforming every industry from healthcare to finance. Machine learning models can now diagnose diseases, predict market movements, and automate complex workflows.", "expected_tool": "summarize_text", "split": "tune"}
+{"input": "Give me a bullet-point summary of: The French Revolution began in 1789 and fundamentally changed European politics.", "expected_tool": "summarize_text", "split": "tune"}
+{"input": "TL;DR this article: Climate change is causing more frequent extreme weather events worldwide.", "expected_tool": "summarize_text", "split": "tune"}
+{"input": "Rewrite this more professionally: hey can u help me fix this bug its been driving me crazy lol", "expected_tool": "rewrite_text", "split": "tune"}
+{"input": "Make this formal: I wanna talk about the new project we got going on.", "expected_tool": "rewrite_text", "split": "tune"}
+{"input": "Simplify this text: The implementation leverages a distributed microservices architecture to achieve horizontal scalability.", "expected_tool": "rewrite_text", "split": "tune"}
+{"input": "Create a study plan for Math and Physics, 5 days, 2 hours per day", "expected_tool": "create_study_plan", "split": "tune"}
+{"input": "Help me plan to study Python, Java, and SQL over 6 days with 3 hours daily", "expected_tool": "create_study_plan", "split": "test"}
+{"input": "Explain this Python code: def factorial(n): return 1 if n <= 1 else n * factorial(n-1)", "expected_tool": "explain_code", "split": "tune"}
+{"input": "What does this do: const arr = [1,2,3].map(x => x * 2)", "expected_tool": "explain_code", "split": "tune"}
+{"input": "I get this error: TypeError: 'NoneType' object is not subscriptable. My code: result = get_data()['key']", "expected_tool": "explain_code", "split": "tune"}
+{"input": "What is machine learning?", "expected_tool": "none", "split": "test"}
+{"input": "Who invented the internet?", "expected_tool": "none", "split": "test"}
+{"input": "What is the capital of France?", "expected_tool": "none", "split": "test"}
+{"input": "Help me with something", "expected_tool": "none", "split": "test"}
+{"input": "I need help with my exams", "expected_tool": "none", "split": "test"}
+{"input": "What is 847 * 23?", "expected_tool": "calculate", "split": "test"}
+{"input": "Convert 15% of 240", "expected_tool": "calculate", "split": "test"}
+{"input": "Summarize: Python is a high-level, general-purpose programming language known for its clear syntax and readability.", "expected_tool": "summarize_text", "split": "test"}
+{"input": "Improve my writing: the report was not good and had many mistake in it", "expected_tool": "rewrite_text", "split": "test"}
+{"input": "Plan my study schedule for Biology, Chemistry, 4 days, 1.5 hours each", "expected_tool": "create_study_plan", "split": "test"}
+{"input": "Explain: public static void main(String[] args) { System.out.println(\"Hello\"); }", "expected_tool": "explain_code", "split": "test"}
