@@ -1,3 +1,22 @@
+## Article Description
+
+Discover how I built Spark AI, an intent-aware AI assistant using Kiro, the Strands Agents SDK, and Strands Decider 2B. Learn how it selects appropriate tools for calculations, summarization, study planning, and other tasks through a reusable agentic workflow.
+
+## Tags
+
+- Artificial Intelligence
+- Agentic AI
+- AWS
+- Strands Agents SDK
+- Strands Decider 2B
+- Kiro
+- Amazon Bedrock
+- Generative AI
+- Developer Tools
+- Hackathon
+
+---
+
 # Spark AI: Building an Intent-Aware AI Assistant with Strands Decider 2B and Kiro
 
 *From Simple Prompts to Smart Actions.*
