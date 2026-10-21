@@ -1,0 +1,74 @@
+{
+  "calculator": {
+    "reply": "The product of 847 and 23 is the full result.\n\n$$\n\\begin{array}{@{}lrr}\n& 8 & 4 & 7 \\\\\n& \\times & 2 & 3 \\\\\n\\hline\n& & & {2301} \\\\\n& + & 6940 & 0 \\\\\n\\hline\n+ & {194\\,81} &\n\\end{array}\n$$",
+    "tool_used": "calculate",
+    "confidence": 0.916,
+    "decisions": [
+      {
+        "stage": "tool_selection",
+        "tool": "calculate",
+        "confidence": 0.916,
+        "narrowed": true,
+        "probabilities": {
+          "calculate": 0.916,
+          "summarize_text": 0.008,
+          "rewrite_text": 0.004,
+          "create_study_plan": 0.003,
+          "explain_code": 0.001,
+          "none": 0.068
+        },
+        "decider_ms": 2068.822100000034
+      }
+    ],
+    "latency_ms": 19041,
+    "model_id": "qwen3.5-4b"
+  },
+  "summarizer": {
+    "reply": "Here is the summary of your text in bullet points:\n\n*   AI is driving a transformation across various industries, including healthcare and finance.\n*   Machine learning systems are capable of diagnosing medical conditions.\n*   These models can predict financial market trends.\n*   Automated workflows run by AI were previously handled by teams of experts.",
+    "tool_used": "summarize_text",
+    "confidence": 0.832,
+    "decisions": [
+      {
+        "stage": "tool_selection",
+        "tool": "summarize_text",
+        "confidence": 0.832,
+        "narrowed": true,
+        "probabilities": {
+          "calculate": 0.006,
+          "summarize_text": 0.832,
+          "rewrite_text": 0.037,
+          "create_study_plan": 0.003,
+          "explain_code": 0.002,
+          "none": 0.121
+        },
+        "decider_ms": 2085.9584999998333
+      }
+    ],
+    "latency_ms": 15368,
+    "model_id": "qwen3.5-4b"
+  },
+  "planner": {
+    "reply": "Here is your structured study plan for Math and Physics over 5 days with 2 hours available daily (totaling 10 hours):\n\n*   **Day 1**: Math (2 hours)\n*   **Day 2**: Math (2 hours)\n*   **Day 3**: Physics (2 hours)\n*   **Day 4**: Physics (2 hours)\n*   **Day 5**: Review & practice for both subjects (2 hours)\n\nThis schedule balances the concentration needed for each subject while dedicating a final review session to reinforce your understanding of all topics covered.",
+    "tool_used": "create_study_plan",
+    "confidence": 0.962,
+    "decisions": [
+      {
+        "stage": "tool_selection",
+        "tool": "create_study_plan",
+        "confidence": 0.962,
+        "narrowed": true,
+        "probabilities": {
+          "calculate": 0.003,
+          "summarize_text": 0.003,
+          "rewrite_text": 0.003,
+          "create_study_plan": 0.962,
+          "explain_code": 0.001,
+          "none": 0.028
+        },
+        "decider_ms": 2262.7439000002596
+      }
+    ],
+    "latency_ms": 31557,
+    "model_id": "qwen3.5-4b"
+  }
+}
